@@ -1,0 +1,46 @@
+name: myproject
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_slider_drawer: ^2.1.3
+  flutter_riverpod: ^2.5.1
+  shared_preferences: ^2.2.3
+  fluttertoast: ^8.2.5
+  go_router: ^12.0.0
+  connectivity_plus: ^6.0.3
+  crystal_navigation_bar: ^1.0.0
+  animated_notch_bottom_bar: ^1.0.3
+  percent_indicator: ^4.2.3
+  fl_chart: ^0.68.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/langs/
+    - assets/images/ 
+    - assets/icons/ 
+    
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Almarai-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Almarai-Light.ttf
+          weight: 300
+          style: italic
